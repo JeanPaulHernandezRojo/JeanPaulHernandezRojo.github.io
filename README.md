@@ -17,19 +17,17 @@ Machine Learning Engineer con +7 años de experiencia en desarrollo e implementa
 
 ### Sistema de Recomendación de Comercios Destacados
 <table>
-<tr>
-<td width="60%">
-
-- **Caso de uso:** Seleccionar los 9 comercios más relevantes por cada usuario. (Total Comercios: +150)
-- **Detalle:** Se personaliza el componente con modelo ALS & Two Tower.
-
-</td>
-<td width="40%">
-
-<img src="images/recsys_comercios.jpg" width="100%" alt="Recsys Comercios">
-
-</td>
-</tr>
+  <tr>
+    <td width="60%">
+      <ul>
+        <li><strong>Caso de uso:</strong> Seleccionar los 9 comercios más relevantes por cada usuario. (Total Comercios: +150)</li>
+        <li><strong>Detalle:</strong> Se personaliza el componente con modelo ALS & Two Tower.</li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="images/recsys_comercios.jpg" width="100%" alt="Recsys Comercios">
+    </td>
+  </tr>
 </table>
 
 ### Sistema de Recomendación de Promociones
