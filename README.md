@@ -33,34 +33,106 @@ Machine Learning Engineer con +7 años de experiencia en desarrollo e implementa
 </table>
 
 ### Sistema de Recomendación de Promociones
-![Recsys Promos](images/recsys_promos.jpg)
+<table>
+<tr>
+<td width="60%">
+
 - **Caso de uso:** Seleccionar las 20 ofertas más relevantes por cada usuario. (Total Promociones: +1000)
 - **Detalle:** Se personaliza el componente con modelo ALS & Reglas comerciales.
 
+</td>
+<td width="40%">
+
+<img src="images/recsys_promos.jpg" width="100%" alt="Recsys Promos">
+
+</td>
+</tr>
+</table>
+
 ### Sistema de Recomendación de cross-selling de promociones
-![Recsys Promos Complementarias](images/recsys_promos_comp.jpg)
+<table>
+<tr>
+<td width="60%">
+
 - **Caso de uso:** Seleccionar las 6 ofertas más probables a que se compren a continuación. (Total Promociones: +1000)
-- **Detalle:** Se personaliza el componente con modelo FP-Growth & Reglas comerciales.
+- **Detalle:** Se personaliza el componente con modelo Prefix-Span & Reglas comerciales.
+
+</td>
+<td width="40%">
+
+<img src="images/recsys_promos_comp.jpg" width="100%" alt="Recsys Promos Complementarias">
+
+</td>
+</tr>
+</table>
 
 ### Modelo de Uplift para Campañas de Cashback
-![Uplift Cashback QR](images/uplift_cashback.jpg)
+<table>
+<tr>
+<td width="60%">
+
 - **Caso de uso:** Identificar usuarios no orgánicos, que requieren campaña de cashback para comprar.
 - **Detalle:** Se acota el universo de usuarios (de millones a miles) y se personaliza el monto de cashback.
 
+</td>
+<td width="40%">
+
+<img src="images/uplift_cashback.jpg" width="100%" alt="Uplift Cashback QR">
+
+</td>
+</tr>
+</table>
+
 ### Sistema de Recomendación de productos similares
-![Recsys SKUs Sustitutos](images/recsys_skus_sust.jpg)
+<table>
+<tr>
+<td width="60%">
+
 - **Caso de uso:** Seleccionar los 10 productos más relacionados al producto visualizado por el usuario. (Total SKUs: +160 mil)
 - **Detalle:** Se personaliza el componente con modelo Word-2-Vec.
 
+</td>
+<td width="40%">
+
+<img src="images/recsys_skus_sust.jpg" width="100%" alt="Recsys SKUs Sustitutos">
+
+</td>
+</tr>
+</table>
+
 ### Sistema de Recomendación de cross-selling de productos
-![Recsys SKUs Complementarias](images/recsys_skus_comp.jpg)
+<table>
+<tr>
+<td width="60%">
+
 - **Caso de uso:** Seleccionar los 6 productos más probables a que se compren a continuación. (Total SKUs: +160 mil)
-- **Detalle:** Se personaliza el componente con modelo Prefix-Span.
+- **Detalle:** Se personaliza el componente con modelo FP-Growth.
+
+</td>
+<td width="40%">
+
+<img src="images/recsys_skus_comp.jpg" width="100%" alt="Recsys SKUs Complementarios">
+
+</td>
+</tr>
+</table>
 
 ### Módulo GenAI para Data Science
-![Modulo GenAI](images/genai.jpg)
+<table>
+<tr>
+<td width="60%">
+
 - **Caso de uso:** Integrar modelos de Gen-AI como funciones aplicables a dataframes.
 - **Detalle:** Permite escalar tareas de clasificación, limpieza, extracción, enriquecimiento de datos en tablas.
+
+</td>
+<td width="40%">
+
+<img src="images/genai.jpg" width="100%" alt="Modulo GenAI">
+
+</td>
+</tr>
+</table>
 
 ---
 
