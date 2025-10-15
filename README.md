@@ -13,30 +13,42 @@ Machine Learning Engineer con +7 años de experiencia en desarrollo e implementa
 
 ## 💼 Proyectos Destacados
 
-### Sistema de Recomendación de Promociones Personalizadas
-**Fintech | 2024**
-- **Stack:** PySpark, Databricks, ALS, Two Tower, MLflow
-- **Impacto:** +61% tasa de clicks, +28% conversión
-- Integración de múltiples fuentes big data (navegación, transaccional, geográfico)
-- Despliegue en producción con monitoreo continuo
+> ⚠️ **Nota de Confidencialidad:** Por acuerdos de confidencialidad corporativa, algunos detalles técnicos específicos, métricas de negocio y datos sensibles han sido omitidos. Las imágenes adjuntas no comprometen información propietaria.
 
-### Sistema de Recomendación Cross-selling
-**Fintech | 2024**
-- **Stack:** PySpark, FP-Growth, Databricks
-- **Impacto:** +43% tasa de clicks en cross-selling
-- Identificación de patrones de compra complementaria
+### Sistema de Recomendación de Comercios Destacados
+![Recsys Comercios](images/recsys_comercios.jpg)
+- **Caso de uso:** Seleccionar los 9 comercios más relevantes por cada usuario. (Total Comercios: +150)
+- **Detalle:** Se personaliza el componente con modelo ALS & Two Tower.
 
-### Modelos de Uplift para Campañas
-**Fintech | 2024**
-- **Stack:** Python, X-learner, Azure
-- Personalización de montos en campañas de cashback
-- A/B testing con plataforma Statsig
+### Sistema de Recomendación de Promociones
+![Recsys Promos](images/recsys_promos.jpg)
+- **Caso de uso:** Seleccionar las 20 ofertas más relevantes por cada usuario. (Total Promociones: +1000)
+- **Detalle:** Se personaliza el componente con modelo ALS & Reglas comerciales.
+
+### Sistema de Recomendación de cross-selling de promociones
+![Recsys Promos Complementarias](images/recsys_promos_comp.jpg)
+- **Caso de uso:** Seleccionar las 6 ofertas más probables a que se compren a continuación. (Total Promociones: +1000)
+- **Detalle:** Se personaliza el componente con modelo FP-Growth & Reglas comerciales.
+
+### Modelo de Uplift para Campañas de Cashback
+![Uplift Cashback QR](images/uplift_cashback.jpg)
+- **Caso de uso:** Identificar usuarios no orgánicos, que requieren campaña de cashback para comprar.
+- **Detalle:** Se acota el universo de usuarios (de millones a miles) y se personaliza el monto de cashback.
 
 ### Módulo GenAI para Data Science
-**Fintech | 2024**
-- **Stack:** Azure OpenAI, Python, Databricks
-- Automatización de tareas de validación y clasificación
-- Reducción de tiempo de desarrollo
+![Modulo GenAI](images/genai.jpg)
+- **Caso de uso:** Integrar modelos de Gen-AI como funciones aplicables a dataframes.
+- **Detalle:** Permite escalar tareas de clasificación, limpieza, extracción, enriquecimiento de datos en tablas.
+
+### Sistema de Recomendación de cross-selling de productos
+![Recsys SKUs Complementarias](images/recsys_skus_comp.jpg)
+- **Caso de uso:** Seleccionar los 6 productos más probables a que se compren a continuación. (Total SKUs: +160 mil)
+- **Detalle:** Se personaliza el componente con modelo Prefix-Span.
+
+### Sistema de Recomendación de productos sustitutos
+![Recsys SKUs Sustitutos](images/recsys_skus_sust.jpg)
+- **Caso de uso:** Seleccionar los 10 productos más relacionados al producto visualizado por el usuario. (Total SKUs: +160 mil)
+- **Detalle:** Se personaliza el componente con modelo Word-2-Vec.
 
 ---
 
