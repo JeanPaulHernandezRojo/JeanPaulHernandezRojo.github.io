@@ -7,7 +7,7 @@
 ---
 
 ## 🎯 Sobre mí
-Machine Learning Engineer con +7 años de experiencia en desarrollo e implementación de modelos ML en producción, especializado en sistemas de recomendación, experimentación (A/B testing) y MLOps en el sector financiero y retail.
+Machine Learning Engineer con +7 años de experiencia en desarrollo e implementación de modelos ML en producción, especializado en sistemas de recomendación, experimentación (A/B testing) y MLOps en el sector financiero y retail, asegurando serving de modelos para +18 millones de usuarios.
 
 ---
 
@@ -16,9 +16,21 @@ Machine Learning Engineer con +7 años de experiencia en desarrollo e implementa
 > ⚠️ **Nota de Confidencialidad:** Por acuerdos de confidencialidad corporativa, algunos detalles técnicos específicos, métricas de negocio y datos sensibles han sido omitidos. Las imágenes adjuntas no comprometen información propietaria.
 
 ### Sistema de Recomendación de Comercios Destacados
-![Recsys Comercios](images/recsys_comercios.jpg)
+<table>
+<tr>
+<td width="60%">
+
 - **Caso de uso:** Seleccionar los 9 comercios más relevantes por cada usuario. (Total Comercios: +150)
 - **Detalle:** Se personaliza el componente con modelo ALS & Two Tower.
+
+</td>
+<td width="40%">
+
+<img src="images/recsys_comercios.jpg" width="100%" alt="Recsys Comercios">
+
+</td>
+</tr>
+</table>
 
 ### Sistema de Recomendación de Promociones
 ![Recsys Promos](images/recsys_promos.jpg)
@@ -35,20 +47,20 @@ Machine Learning Engineer con +7 años de experiencia en desarrollo e implementa
 - **Caso de uso:** Identificar usuarios no orgánicos, que requieren campaña de cashback para comprar.
 - **Detalle:** Se acota el universo de usuarios (de millones a miles) y se personaliza el monto de cashback.
 
-### Módulo GenAI para Data Science
-![Modulo GenAI](images/genai.jpg)
-- **Caso de uso:** Integrar modelos de Gen-AI como funciones aplicables a dataframes.
-- **Detalle:** Permite escalar tareas de clasificación, limpieza, extracción, enriquecimiento de datos en tablas.
+### Sistema de Recomendación de productos similares
+![Recsys SKUs Sustitutos](images/recsys_skus_sust.jpg)
+- **Caso de uso:** Seleccionar los 10 productos más relacionados al producto visualizado por el usuario. (Total SKUs: +160 mil)
+- **Detalle:** Se personaliza el componente con modelo Word-2-Vec.
 
 ### Sistema de Recomendación de cross-selling de productos
 ![Recsys SKUs Complementarias](images/recsys_skus_comp.jpg)
 - **Caso de uso:** Seleccionar los 6 productos más probables a que se compren a continuación. (Total SKUs: +160 mil)
 - **Detalle:** Se personaliza el componente con modelo Prefix-Span.
 
-### Sistema de Recomendación de productos sustitutos
-![Recsys SKUs Sustitutos](images/recsys_skus_sust.jpg)
-- **Caso de uso:** Seleccionar los 10 productos más relacionados al producto visualizado por el usuario. (Total SKUs: +160 mil)
-- **Detalle:** Se personaliza el componente con modelo Word-2-Vec.
+### Módulo GenAI para Data Science
+![Modulo GenAI](images/genai.jpg)
+- **Caso de uso:** Integrar modelos de Gen-AI como funciones aplicables a dataframes.
+- **Detalle:** Permite escalar tareas de clasificación, limpieza, extracción, enriquecimiento de datos en tablas.
 
 ---
 
